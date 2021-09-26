@@ -11,6 +11,9 @@ Fee collection should only happen when the amount spent on gas is a small percen
 6. After fees are collected, monitor gas costs and begin to add liquidity once cost is <= $50
 7. Add max amount of TokenA and corresponding amount of ETH using the `addLiquidity()` function, while ensuring there is at least 1 ETH left in wallet balance. If this transaction would result in a wallet balance with less than 1 ETH left, then add any ETH over 1 and the corresponding amount from TokenA.
 
+## To do
+Check out using a [Chainlink Keeper](https://docs.chain.link/docs/chainlink-keepers/introduction/ 'Chainlink Keeper Docs') to automate some of this workflow
+
 ---
 ## Future enhancements
 
